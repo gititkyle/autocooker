@@ -1,4 +1,4 @@
-#! /bin/bash -e
+#!/bin/bash -e
 
 ##
 # Author: chooooons
@@ -12,7 +12,7 @@
 echo "*** firing up the grill ***"
 
 if [ -z "$1" ] || [ -z "$2" ]; then
-    echo "args /path/to/dir and /path/to/cover.* required"
+    echo "fatal: args /path/to/dir and /path/to/*.jpg required"
     exit 1
 fi
 
