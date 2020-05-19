@@ -1,4 +1,4 @@
-# `autocooker`: cook up tasty jams :hamburger:
+# `autocooker` cook up tasty jams :hamburger:
 
 ### Current: `v0.0.1`
 
